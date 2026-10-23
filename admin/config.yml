@@ -26,6 +26,12 @@
               "required": true
             },
             {
+              "name": "photo",
+              "label": "個人照片",
+              "widget": "image",
+              "required": true
+            },
+            {
               "name": "role",
               "label": "專業領域",
               "widget": "string",
@@ -54,24 +60,6 @@
               "label": "LinkedIn 網址",
               "widget": "string",
               "required": false
-            },
-            {
-              "name": "interests",
-              "label": "研究興趣（英文逗號分隔）",
-              "widget": "string",
-              "required": true
-            },
-            {
-              "name": "heroEyebrow",
-              "label": "首頁標語",
-              "widget": "string",
-              "required": true
-            },
-            {
-              "name": "heroTitle",
-              "label": "首頁大標題",
-              "widget": "text",
-              "required": true
             },
             {
               "name": "about",
@@ -394,6 +382,12 @@
               "required": true
             },
             {
+              "name": "photo",
+              "label": "個人照片",
+              "widget": "image",
+              "required": true
+            },
+            {
               "name": "role",
               "label": "專業領域",
               "widget": "string",
@@ -422,24 +416,6 @@
               "label": "LinkedIn 網址",
               "widget": "string",
               "required": false
-            },
-            {
-              "name": "interests",
-              "label": "研究興趣（英文逗號分隔）",
-              "widget": "string",
-              "required": true
-            },
-            {
-              "name": "heroEyebrow",
-              "label": "首頁標語",
-              "widget": "string",
-              "required": true
-            },
-            {
-              "name": "heroTitle",
-              "label": "首頁大標題",
-              "widget": "text",
-              "required": true
             },
             {
               "name": "about",
