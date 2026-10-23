@@ -1,0 +1,2 @@
+fetch('./config.yml',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(config=>{if(!config.backend.turbo_site_id){document.querySelector('#setup p').textContent='後台尚未連結 GitHub 儲存庫。完成首次登入設定後，即可在這裡編輯中英文內容，不需要 ChatGPT。';return}if(!window.CMS)throw Error();document.getElementById('setup').remove();window.CMS.init({config:{...config,load_config_file:false}});}).catch(()=>{document.querySelector('#setup p').textContent='後台載入失敗，請重新整理或稍後重試。';});
+

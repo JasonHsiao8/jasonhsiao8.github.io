@@ -1,0 +1,117 @@
+{
+  "name": "Chia Hung Hsiao",
+  "role": "AI Hardware & Digital IC Design",
+  "location": "Taipei, Taiwan",
+  "about": "I am a master’s student at National Yang Ming Chiao Tung University, studying Artificial Intelligence Innovation in the VLSI Signal Processing Lab. My work explores efficient AI hardware, reduced-precision computing, and digital circuit design.\n\nI enjoy translating algorithms into practical hardware—from systolic-array architectures to FPGA signal processing.",
+  "email": "jasonhsiao2019@gmail.com",
+  "github": "https://github.com/JasonHsiao8",
+  "linkedin": "https://www.linkedin.com/in/chia-hung-hsiao1103",
+  "interests": "AI accelerators, Digital IC design, FPGA, Signal processing",
+  "education": [
+    {
+      "title": "National Yang Ming Chiao Tung University",
+      "subtitle": "M.S. · Institute of Artificial Intelligence Innovation",
+      "date": "Sep 2026 — Jun 2028 (expected)",
+      "description": "VLSI Signal Processing Lab · Hsinchu, Taiwan",
+      "url": "https://vsplab.lab.nycu.edu.tw/"
+    },
+    {
+      "title": "National Taiwan University of Science and Technology",
+      "subtitle": "B.S. · Electrical Engineering",
+      "date": "Sep 2022 — Jun 2026",
+      "description": "VLSI Dependable and Secure Computing Lab\nGPA 4.15 / 4.3 · Top 8.2%",
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "title": "Ranictek",
+      "subtitle": "FPGA Digital Circuit R&D Intern",
+      "date": "Jul 2025 — Jan 2026",
+      "description": "Developed 32 × 8 complex matrix multiplication with phase using CORDIC algorithms and fixed-point arithmetic to reduce multiplier and memory usage.\nDesigned a CDMA-based transceiver integrating Kasami, Gold, and Walsh PN codes into DSSS; evaluated BER and interference performance across SNR levels in an AWGN channel.",
+      "url": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "Reduced-Precision AI Accelerator",
+      "subtitle": "RTL · Synthesis · PyTorch",
+      "date": "Feb — Sep 2025",
+      "description": "Designed a low-cost AI accelerator based on Google’s TPU with weight compensation. The proposed systolic array reduced overall hardware overhead by 16.64%, while improving accuracy by 0.1–0.6% compared with INT8 quantization.",
+      "url": ""
+    },
+    {
+      "title": "CORDIC Algorithm & Applications",
+      "subtitle": "Verilog · Fixed-point arithmetic",
+      "date": "Jul — Sep 2025",
+      "description": "Designed hardware-efficient RTL for approximate sine and cosine computation with absolute error ≤ 0.00025. Extended CORDIC to approximate decimal multiplication.",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Weight-Aware and Reduced-Precision Architecture Designs for Low-Cost AI Accelerators",
+      "subtitle": "Taiwan and Japan Conference on Circuits and Systems (TJCAS 2025)",
+      "date": "2025",
+      "description": "Third author",
+      "url": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "National Collegiate IC Design Contest",
+      "subtitle": "Finalist · Undergraduate Cell-Based Digital Circuit Design (Group E)",
+      "date": "2025",
+      "description": "",
+      "url": ""
+    },
+    {
+      "title": "Outstanding Youth Award",
+      "subtitle": "NTUST · 11 recipients among 12,000 students",
+      "date": "2025",
+      "description": "",
+      "url": ""
+    },
+    {
+      "title": "Academic Excellence Award",
+      "subtitle": "NTUST · Top 5% of 156 students · Received 3 times",
+      "date": "2022 — 2026",
+      "description": "",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "title": "Languages & tools",
+      "subtitle": "Verilog / SystemVerilog · MATLAB · Python · C++",
+      "date": "",
+      "description": "ModelSim · Vivado · Synopsys Design Compiler · Synopsys IC Compiler",
+      "url": ""
+    },
+    {
+      "title": "Selected coursework",
+      "subtitle": "Digital Logic · Computer Organization · Digital System Design",
+      "date": "",
+      "description": "VLSI Design · VLSI Testing · Digital Signal Processing · Signals and Systems",
+      "url": ""
+    },
+    {
+      "title": "Communication",
+      "subtitle": "Chinese · English · Sign Language",
+      "date": "",
+      "description": "TOEIC 790 (Listening 390 / Reading 400)",
+      "url": ""
+    }
+  ],
+  "leadership": [
+    {
+      "title": "Student Association President",
+      "subtitle": "University-wide Interdisciplinary Program · NTUST",
+      "date": "Sep 2023 — Jun 2024",
+      "description": "",
+      "url": ""
+    }
+  ],
+  "heroEyebrow": "ALGORITHMS → ARCHITECTURES",
+  "heroTitle": "Building efficient\nintelligence in silicon."
+}
