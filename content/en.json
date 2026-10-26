@@ -114,52 +114,57 @@
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "Computer Organization",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "Digital System Design",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "VLSI Design",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "VLSI Testing",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "Digital Signal Processing",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "Signals and Systems",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     }
   ],
-  "graduateGpa": "",
-  "undergraduateGpa": "4.15 / 4.3",
   "transcripts": []
 }

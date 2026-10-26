@@ -114,52 +114,57 @@
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "計算機組織",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "數位系統設計",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "VLSI 設計",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "VLSI 測試",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "數位訊號處理",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     },
     {
       "title": "訊號與系統",
       "subtitle": "",
       "date": "",
       "url": "",
-      "description": ""
+      "description": "",
+      "grade": ""
     }
   ],
-  "graduateGpa": "",
-  "undergraduateGpa": "4.15 / 4.3",
   "transcripts": []
 }
