@@ -89,13 +89,6 @@
       "url": ""
     },
     {
-      "title": "Selected coursework",
-      "subtitle": "Digital Logic · Computer Organization · Digital System Design",
-      "date": "",
-      "description": "VLSI Design · VLSI Testing · Digital Signal Processing · Signals and Systems",
-      "url": ""
-    },
-    {
       "title": "Communication",
       "subtitle": "Chinese · English · Sign Language",
       "date": "",
@@ -112,5 +105,58 @@
       "url": ""
     }
   ],
-  "photo": "https://github.com/JasonHsiao8.png"
+  "photo": "https://github.com/JasonHsiao8.png",
+  "copyrightName": "Chia-Hung Hsiao",
+  "graduateCourses": [],
+  "undergraduateCourses": [
+    {
+      "title": "Digital Logic",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "Computer Organization",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "Digital System Design",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "VLSI Design",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "VLSI Testing",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "Digital Signal Processing",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "Signals and Systems",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    }
+  ]
 }

@@ -89,13 +89,6 @@
       "url": ""
     },
     {
-      "title": "相關修課",
-      "subtitle": "數位邏輯・計算機組織・數位系統設計",
-      "date": "",
-      "description": "VLSI 設計・VLSI 測試・數位訊號處理・訊號與系統",
-      "url": ""
-    },
-    {
       "title": "語言與溝通",
       "subtitle": "中文・英文・手語",
       "date": "",
@@ -112,5 +105,58 @@
       "url": ""
     }
   ],
-  "photo": "https://github.com/JasonHsiao8.png"
+  "photo": "https://github.com/JasonHsiao8.png",
+  "copyrightName": "Chia-Hung Hsiao",
+  "graduateCourses": [],
+  "undergraduateCourses": [
+    {
+      "title": "數位邏輯",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "計算機組織",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "數位系統設計",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "VLSI 設計",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "VLSI 測試",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "數位訊號處理",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    },
+    {
+      "title": "訊號與系統",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": ""
+    }
+  ]
 }

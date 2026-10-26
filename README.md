@@ -4,7 +4,7 @@
 
 ## 開啟
 在 Windows 安裝 Node.js 22 以上及 Git for Windows（含 Git Credential Manager）。本機已有這兩項工具。
-雙擊「啟動編輯器.cmd」，若瀏覽器開啟時服務尚未就緒，重新整理即可。使用期間請保持啟動視窗開啟；關閉視窗即停止編輯器。
+每次重新開機後，雙擊「啟動編輯器.cmd」。工具會先確認服務啟動完成，再開啟瀏覽器，並在背景執行；重複雙擊會重用已啟動的服務。127.0.0.1 是本機工具網址，未啟動時無法直接開啟。
 其他系統可在此資料夾執行 `node editor/server.mjs`，瀏覽 http://127.0.0.1:5190/。
 
 ## 使用
@@ -29,3 +29,4 @@
 `node scripts/build.mjs`
 
 網站版型維持 Home / Projects / Publications / Experience，提供中英切換。
+
