@@ -38,14 +38,20 @@
       "subtitle": "RTL · Synthesis · PyTorch",
       "date": "Feb — Sep 2025",
       "description": "Designed a low-cost AI accelerator based on Google’s TPU with weight compensation. The proposed systolic array reduced overall hardware overhead by 16.64%, while improving accuracy by 0.1–0.6% compared with INT8 quantization.",
-      "url": ""
+      "url": "",
+      "category": "digital",
+      "github": "",
+      "report": ""
     },
     {
       "title": "CORDIC Algorithm & Applications",
       "subtitle": "Verilog · Fixed-point arithmetic",
       "date": "Jul — Sep 2025",
       "description": "Designed hardware-efficient RTL for approximate sine and cosine computation with absolute error ≤ 0.00025. Extended CORDIC to approximate decimal multiplication.",
-      "url": ""
+      "url": "",
+      "category": "digital",
+      "github": "",
+      "report": ""
     }
   ],
   "publications": [
@@ -105,7 +111,7 @@
       "url": ""
     }
   ],
-  "photo": "https://github.com/JasonHsiao8.png",
+  "photo": "/assets/uploads/profile.jpg",
   "copyrightName": "Chia-Hung Hsiao",
   "graduateCourses": [],
   "undergraduateCourses": [
@@ -115,7 +121,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "Computer Organization",
@@ -123,7 +130,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "Digital System Design",
@@ -131,7 +139,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "VLSI Design",
@@ -139,7 +148,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "VLSI Testing",
@@ -147,7 +157,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "Digital Signal Processing",
@@ -155,7 +166,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "Signals and Systems",
@@ -163,7 +175,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     }
   ],
   "transcripts": []

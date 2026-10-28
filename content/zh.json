@@ -38,14 +38,20 @@
       "subtitle": "RTL・邏輯合成・PyTorch",
       "date": "2025.02 — 2025.09",
       "description": "以 Google TPU 為基礎設計低成本 AI 加速器，搭配權重補償。提出的脈動陣列相較傳統架構減少 16.64% 整體硬體開銷；相較 INT8 量化，準確度提升 0.1–0.6%。",
-      "url": ""
+      "url": "",
+      "category": "digital",
+      "github": "",
+      "report": ""
     },
     {
       "title": "CORDIC 演算法實作與應用",
       "subtitle": "Verilog・定點數運算",
       "date": "2025.07 — 2025.09",
       "description": "以 RTL 實作高硬體效率的正弦與餘弦近似計算，絕對誤差 ≤ 0.00025，並延伸應用於小數乘法近似運算。",
-      "url": ""
+      "url": "https://github.com/JasonHsiao8/Cordic-hardware-algorithm-implementation-and-application",
+      "category": "digital",
+      "github": "https://github.com/JasonHsiao8/Cordic-hardware-algorithm-implementation-and-application",
+      "report": ""
     }
   ],
   "publications": [
@@ -105,7 +111,7 @@
       "url": ""
     }
   ],
-  "photo": "https://github.com/JasonHsiao8.png",
+  "photo": "/assets/uploads/profile.jpg",
   "copyrightName": "Chia-Hung Hsiao",
   "graduateCourses": [],
   "undergraduateCourses": [
@@ -115,7 +121,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "A+",
+      "syllabusLabel": ""
     },
     {
       "title": "計算機組織",
@@ -123,7 +130,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "數位系統設計",
@@ -131,7 +139,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "VLSI 設計",
@@ -139,7 +148,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "VLSI 測試",
@@ -147,7 +157,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "數位訊號處理",
@@ -155,7 +166,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     },
     {
       "title": "訊號與系統",
@@ -163,7 +175,8 @@
       "date": "",
       "url": "",
       "description": "",
-      "grade": ""
+      "grade": "",
+      "syllabusLabel": ""
     }
   ],
   "transcripts": []

@@ -6,6 +6,5 @@ if errorlevel 1 (
  pause
  exit /b 1
 )
-start "" http://127.0.0.1:5190/
-node editor/server.mjs
-pause
+node scripts/launch-editor.mjs
+if errorlevel 1 pause

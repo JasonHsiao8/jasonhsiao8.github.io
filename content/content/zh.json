@@ -1,0 +1,183 @@
+{
+  "name": "Chia Hung Hsiao",
+  "role": "AI 硬體與數位 IC 設計",
+  "location": "台灣・台北",
+  "about": "我目前就讀國立陽明交通大學人工智慧創新研究所，隸屬 VLSI 訊號處理實驗室。研究與實作方向涵蓋高效率 AI 硬體、低精度運算及數位電路設計。\n\n我喜歡將演算法轉化為實際硬體，從脈動陣列架構，到 FPGA 訊號處理，探索效能、精度與硬體成本之間的平衡。",
+  "email": "jasonhsiao2019@gmail.com",
+  "github": "https://github.com/JasonHsiao8",
+  "linkedin": "https://www.linkedin.com/in/chia-hung-hsiao1103",
+  "interests": "AI 加速器, 數位 IC 設計, FPGA, 訊號處理",
+  "education": [
+    {
+      "title": "國立陽明交通大學",
+      "subtitle": "碩士・人工智慧創新研究所",
+      "date": "2026.09 — 2028.06（預計）",
+      "description": "VLSI 訊號處理實驗室・台灣新竹",
+      "url": "https://vsplab.lab.nycu.edu.tw/"
+    },
+    {
+      "title": "國立臺灣科技大學",
+      "subtitle": "學士・電機工程系",
+      "date": "2022.09 — 2026.06",
+      "description": "VLSI 可靠與安全計算實驗室\nGPA 4.15 / 4.3・排名前 8.2%",
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "title": "Ranictek",
+      "subtitle": "FPGA 數位電路研發實習生",
+      "date": "2025.07 — 2026.01",
+      "description": "開發具相位運算的 32 × 8 複數矩陣乘法，透過 CORDIC 演算法與定點數格式，減少乘法器及記憶體用量。\n設計 CDMA 收發器，整合 Kasami、Gold 與 Walsh PN 碼至 DSSS 技術，並在 AWGN 通道下，評估不同 SNR 的位元錯誤率與抗干擾表現。",
+      "url": ""
+    }
+  ],
+  "projects": [
+    {
+      "title": "低精度 AI 加速器架構",
+      "subtitle": "RTL・邏輯合成・PyTorch",
+      "date": "2025.02 — 2025.09",
+      "description": "以 Google TPU 為基礎設計低成本 AI 加速器，搭配權重補償。提出的脈動陣列相較傳統架構減少 16.64% 整體硬體開銷；相較 INT8 量化，準確度提升 0.1–0.6%。",
+      "url": "",
+      "category": "digital",
+      "github": "",
+      "report": ""
+    },
+    {
+      "title": "CORDIC 演算法實作與應用",
+      "subtitle": "Verilog・定點數運算",
+      "date": "2025.07 — 2025.09",
+      "description": "以 RTL 實作高硬體效率的正弦與餘弦近似計算，絕對誤差 ≤ 0.00025，並延伸應用於小數乘法近似運算。",
+      "url": "https://github.com/JasonHsiao8/Cordic-hardware-algorithm-implementation-and-application",
+      "category": "digital",
+      "github": "https://github.com/JasonHsiao8/Cordic-hardware-algorithm-implementation-and-application",
+      "report": ""
+    }
+  ],
+  "publications": [
+    {
+      "title": "Weight-Aware and Reduced-Precision Architecture Designs for Low-Cost AI Accelerators",
+      "subtitle": "台日電路與系統研討會（TJCAS 2025）",
+      "date": "2025",
+      "description": "第三作者",
+      "url": ""
+    }
+  ],
+  "awards": [
+    {
+      "title": "全國大專院校積體電路設計競賽",
+      "subtitle": "決賽入圍・大學部標準元件數位電路設計組（E 組）",
+      "date": "2025",
+      "description": "",
+      "url": ""
+    },
+    {
+      "title": "傑出青年獎",
+      "subtitle": "國立臺灣科技大學・全校 12,000 名學生中選出 11 名",
+      "date": "2025",
+      "description": "",
+      "url": ""
+    },
+    {
+      "title": "書卷獎",
+      "subtitle": "國立臺灣科技大學・156 名學生前 5%・共獲獎 3 次",
+      "date": "2022 — 2026",
+      "description": "",
+      "url": ""
+    }
+  ],
+  "skills": [
+    {
+      "title": "程式語言與設計工具",
+      "subtitle": "Verilog / SystemVerilog・MATLAB・Python・C++",
+      "date": "",
+      "description": "ModelSim・Vivado・Synopsys Design Compiler・Synopsys IC Compiler",
+      "url": ""
+    },
+    {
+      "title": "語言與溝通",
+      "subtitle": "中文・英文・手語",
+      "date": "",
+      "description": "TOEIC 790（聽力 390／閱讀 400）",
+      "url": ""
+    }
+  ],
+  "leadership": [
+    {
+      "title": "跨領域學程學生會會長",
+      "subtitle": "國立臺灣科技大學",
+      "date": "2023.09 — 2024.06",
+      "description": "",
+      "url": ""
+    }
+  ],
+  "photo": "/assets/uploads/profile.jpg",
+  "copyrightName": "Chia-Hung Hsiao",
+  "graduateCourses": [],
+  "undergraduateCourses": [
+    {
+      "title": "數位邏輯",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": "",
+      "grade": "A+",
+      "syllabusLabel": ""
+    },
+    {
+      "title": "計算機組織",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": "",
+      "grade": "",
+      "syllabusLabel": ""
+    },
+    {
+      "title": "數位系統設計",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": "",
+      "grade": "",
+      "syllabusLabel": ""
+    },
+    {
+      "title": "VLSI 設計",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": "",
+      "grade": "",
+      "syllabusLabel": ""
+    },
+    {
+      "title": "VLSI 測試",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": "",
+      "grade": "",
+      "syllabusLabel": ""
+    },
+    {
+      "title": "數位訊號處理",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": "",
+      "grade": "",
+      "syllabusLabel": ""
+    },
+    {
+      "title": "訊號與系統",
+      "subtitle": "",
+      "date": "",
+      "url": "",
+      "description": "",
+      "grade": "",
+      "syllabusLabel": ""
+    }
+  ],
+  "transcripts": []
+}

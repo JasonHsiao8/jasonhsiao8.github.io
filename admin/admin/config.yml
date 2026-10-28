@@ -1,0 +1,732 @@
+{
+  "backend": {
+    "name": "turbo-github",
+    "turbo_site_id": "",
+    "branch": "main"
+  },
+  "locale": "zh_Hant",
+  "media_folder": "assets/uploads",
+  "public_folder": "/assets/uploads",
+  "publish_mode": "simple",
+  "collections": [
+    {
+      "name": "portfolio",
+      "label": "網站內容",
+      "description": "中英文獨立編輯；儲存後 GitHub Pages 會自動重新發布。",
+      "files": [
+        {
+          "name": "en",
+          "label": "英文網站",
+          "file": "content/en.json",
+          "fields": [
+            {
+              "name": "name",
+              "label": "姓名",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "photo",
+              "label": "個人照片",
+              "widget": "image",
+              "required": true
+            },
+            {
+              "name": "role",
+              "label": "專業領域",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "location",
+              "label": "地點",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "聯絡 Email",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "github",
+              "label": "GitHub 網址",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "linkedin",
+              "label": "LinkedIn 網址",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "about",
+              "label": "自我介紹",
+              "widget": "text",
+              "required": true
+            },
+            {
+              "name": "education",
+              "label": "學歷",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "experience",
+              "label": "經歷",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "projects",
+              "label": "專案",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "publications",
+              "label": "論文",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "awards",
+              "label": "獎項",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "skills",
+              "label": "技能",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "leadership",
+              "label": "領導經驗",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "zh",
+          "label": "中文網站",
+          "file": "content/zh.json",
+          "fields": [
+            {
+              "name": "name",
+              "label": "姓名",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "photo",
+              "label": "個人照片",
+              "widget": "image",
+              "required": true
+            },
+            {
+              "name": "role",
+              "label": "專業領域",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "location",
+              "label": "地點",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "email",
+              "label": "聯絡 Email",
+              "widget": "string",
+              "required": true
+            },
+            {
+              "name": "github",
+              "label": "GitHub 網址",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "linkedin",
+              "label": "LinkedIn 網址",
+              "widget": "string",
+              "required": false
+            },
+            {
+              "name": "about",
+              "label": "自我介紹",
+              "widget": "text",
+              "required": true
+            },
+            {
+              "name": "education",
+              "label": "學歷",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "experience",
+              "label": "經歷",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "projects",
+              "label": "專案",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "publications",
+              "label": "論文",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "awards",
+              "label": "獎項",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "skills",
+              "label": "技能",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "leadership",
+              "label": "領導經驗",
+              "widget": "list",
+              "required": false,
+              "summary": "{{fields.title}}",
+              "fields": [
+                {
+                  "name": "title",
+                  "label": "標題",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "name": "subtitle",
+                  "label": "副標題／機構",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "date",
+                  "label": "日期",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "name": "url",
+                  "label": "相關連結",
+                  "widget": "string",
+                  "required": false,
+                  "pattern": [
+                    "^(https://.+)?$",
+                    "請輸入 https:// 網址，或留空"
+                  ]
+                },
+                {
+                  "name": "description",
+                  "label": "說明",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
