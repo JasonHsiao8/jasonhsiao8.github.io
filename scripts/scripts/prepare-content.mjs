@@ -1,2 +1,0 @@
-import {readFileSync,writeFileSync} from 'node:fs';
-for(const lang of ['en','zh']){const p='content/'+lang+'.json';const c=JSON.parse(readFileSync(p,'utf8'));c.heroEyebrow=lang==='en'?'ALGORITHMS → ARCHITECTURES':'從演算法，到硬體架構';c.heroTitle=lang==='en'?'Building efficient\nintelligence in silicon.':'以高效率硬體，\n實現智慧運算。';if(lang==='zh')c.leadership[0].title='跨領域學程學生會會長';writeFileSync(p,JSON.stringify(c,null,2)+'\n');}
