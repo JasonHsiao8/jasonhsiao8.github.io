@@ -20,8 +20,8 @@ const git=(args,cwd=checkout)=>run('git',args,{cwd,windowsHide:true,timeout:1800
 async function prepare(){if(!existsSync(join(checkout,'.git')))await git(['clone','--branch','main','--single-branch',repo,checkout],root);await git(['fetch','origin','main']);await git(['reset','--hard','origin/main']);}
 async function remoteData(){return Object.fromEntries(await Promise.all(['en','zh'].map(async l=>[l,JSON.parse((await git(['show','origin/main:content/'+l+'.json'])).stdout)])));}
 async function publish(){busy=true;job={state:'running',message:'正在檢查 GitHub 最新版本…'};try{await build();await prepare();const current=read(),remote=await remoteData(),base=JSON.parse(readFileSync(baseline));for(const l of ['en','zh'])if(JSON.stringify(remote[l])!==JSON.stringify(base[l])&&JSON.stringify(remote[l])!==JSON.stringify(current[l]))throw Error('GitHub 上的內容已被其他電腦更新。請先匯出本機備份，再按「載入 GitHub 最新資料」後整合修改。');
-for(const p of ['content','assets','scripts','editor','admin','.github','package.json','.gitignore','README.md','啟動編輯器.cmd'])cpSync(join(root,p),join(checkout,p),{recursive:true});
-await git(['add','--','content','assets','scripts','editor','admin','.github','package.json','.gitignore','README.md','啟動編輯器.cmd']);
+for(const p of ['content','assets','scripts','editor','admin','.github','package.json','.gitignore','README.md'])cpSync(join(root,p),join(checkout,p),{recursive:true});
+await git(['add','--','content','assets','scripts','editor','admin','.github','package.json','.gitignore','README.md']);
 const changed=(await git(['diff','--cached','--name-only'])).stdout.trim();if(!changed){job={state:'done',message:'內容與 GitHub 相同，無須重複發布。'};return;}
 job={state:'running',message:'正在上傳。若出現 GitHub 登入視窗，請在該視窗完成登入。'};
 await git(['-c','user.name=JasonHsiao8','-c','user.email=jasonhsiao2019@gmail.com','commit','-m','Update portfolio from local resume editor']);await git(['push','origin','HEAD:main']);writeFileSync(baseline,JSON.stringify(current));job={state:'done',message:'已上傳 GitHub，網站正在自動部署。可點「部署進度」確認完成。'};
