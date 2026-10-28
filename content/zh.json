@@ -12,15 +12,19 @@
       "title": "國立陽明交通大學",
       "subtitle": "碩士・人工智慧創新研究所",
       "date": "2026.09 — 2028.06（預計）",
-      "description": "VLSI 訊號處理實驗室・台灣新竹",
-      "url": "https://vsplab.lab.nycu.edu.tw/"
+      "description": "",
+      "url": "https://vsplab.lab.nycu.edu.tw/",
+      "lab": "VLSI 訊號處理實驗室",
+      "location": "台灣新竹"
     },
     {
       "title": "國立臺灣科技大學",
       "subtitle": "學士・電機工程系",
       "date": "2022.09 — 2026.06",
-      "description": "VLSI 可靠與安全計算實驗室\nGPA 4.15 / 4.3・排名前 8.2%",
-      "url": ""
+      "description": "GPA 4.15 / 4.3・排名前 8.2%",
+      "url": "",
+      "lab": "VLSI 可靠與安全計算實驗室",
+      "location": ""
     }
   ],
   "experience": [

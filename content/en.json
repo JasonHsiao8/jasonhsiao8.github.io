@@ -12,15 +12,19 @@
       "title": "National Yang Ming Chiao Tung University",
       "subtitle": "M.S. in Institute of Artificial Intelligence Innovation",
       "date": "Sep 2026 — Present",
-      "description": "VLSI Signal Processing Lab · Hsinchu, Taiwan",
-      "url": "https://vsplab.lab.nycu.edu.tw/"
+      "description": "",
+      "url": "https://vsplab.lab.nycu.edu.tw/",
+      "lab": "VLSI Signal Processing Lab",
+      "location": "Hsinchu, Taiwan"
     },
     {
       "title": "National Taiwan University of Science and Technology",
       "subtitle": "B.S. in Electrical Engineering",
       "date": "Sep 2022 — Jun 2026",
-      "description": "VLSI Dependable and Secure Computing Lab\nGPA 4.15 / 4.3 · Top 8.2%",
-      "url": ""
+      "description": "GPA 4.15 / 4.3 · Top 8.2%",
+      "url": "",
+      "lab": "VLSI Dependable and Secure Computing Lab",
+      "location": ""
     }
   ],
   "experience": [

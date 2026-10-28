@@ -20,3 +20,7 @@ h2,.entry-header strong,.project h3,.publications strong,.page-coursework .entry
 .project h3{font-size:18px}
 
 .project-category{margin-top:36px}.project-links{display:flex;gap:24px;flex-wrap:wrap;margin-top:16px;font-size:16px}.project-links a{display:inline-flex;align-items:center;gap:6px}
+
+.entry-location{display:block;margin-top:5px}
+
+.entry-detail .lab-link,.entry-detail .lab-link:visited,.entry-detail .lab-link:hover{color:inherit;text-decoration:none}
